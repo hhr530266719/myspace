@@ -1,6 +1,6 @@
 <template>
   <ContentBase>
-      好友列表
+      注册
   </ContentBase>
 </template>
 
@@ -8,7 +8,7 @@
 
 import ContentBase from '@/components/ContentBase.vue';
 export default {
-  name: "userList",
+  name: "RegisterView",
   components: {
     ContentBase,
    
