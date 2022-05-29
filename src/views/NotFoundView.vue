@@ -1,19 +1,18 @@
 <template>
   <ContentBase>
-    首页
-    
+      404
   </ContentBase>
 </template>
 
 <script>
-import ContentBase from '../components/ContentBase';
 
-
-export default { 
-  name: "HomeView",
+import ContentBase from '@/components/ContentBase.vue';
+export default {
+  name: "NotFoundView",
   components: {
     ContentBase,
-  },
+   
+},
 };
 </script>
 <style scoped>
